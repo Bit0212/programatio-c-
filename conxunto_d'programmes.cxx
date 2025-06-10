@@ -6,7 +6,7 @@ int main (){
 cout<<"hola aqui estamos en trustantinopla hub ahora voy a incluir todos mis programas en uno"<<endl;
 
 int opcion;
-	cout<<"hola che como andas esocoge una opcion de las que quieras sabes"<<endl;
+	cout<<"hola che como andas esocoge una opcion de las que quieras sabes 1-6 sin miedo "<<endl;
 	cin>>opcion;
 if (opcion==1){
 cout<<"contador de caracteres"<<endl;
@@ -142,51 +142,13 @@ cout<<"aquí tienes tu cateto 2"<<endl;
 cout<<proceso_2;
 }
 }
-if (opcion== 6 ){
 
-double b;
-cout<<"Dame el valor de el cateto 2 : ";
-
-cin>>b;
-double c;
-cout<<"Dame el valor de la hipotenusa : ";
-
-cin>>c;
-
-
-double proceso_1 =pow(c,2) - pow(b,2);
-double proceso_2 = pow(proceso_1,0.5);
-
-cout<<"aquí tienes tu cateto 1"<<endl;
-cout<<proceso_2;
-}
-
-if (respuesta == 3 ){
-
-double a;
-cout<<"Dame el valor de el cateto 1: ";
-
-cin>>a;
-double b;
-cout<<"Dame el valor de el cateto 2: ";
-
-cin>>b;
-
-
-double proceso_1 =pow(a,2)+pow(b,2);
-double proceso_2 = pow(proceso_1,0.5);
-
-cout<<"aquí tienes tu hipotenusa"<<endl;
-cout<<proceso_2;
-}
-
-}
-if (opcion ==7){
+if (opcion ==6){
 	cout<<"hola plebes pasa un numero y te lleva a lo que quieras resolver(1,2)"<<endl;
 int opcion;
 cin>>opcion;
 if(opcion==1){
-cout<<"Hola rey pasame la ecuaciÃ³n"<<endl;
+cout<<"Hola rey pasame la ecuacion"<<endl;
 cout<<"recuerda que me tienes que pasar en base a la forma ax+b=c"<<endl;
 cout<<"primero pasame la a"<<endl;
 double a;
@@ -230,6 +192,9 @@ cout<<resultado_full_2;
 
 }
 }
-
+else{
+	cout<<"sea serio no hay vida"<<endl;
+}
+}
 return 0;
 }
