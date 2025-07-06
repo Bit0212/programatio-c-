@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 // jeje hola amigos de youtube hoy vamos a trolear a todo el mundo con este hack para toda la familia
 double a,b,d,valor=0;
+<<<<<<< HEAD
 string c = "si";
 double resultado =0;
 while (c =="si"){
@@ -34,10 +35,11 @@ if (c=="si"){
 	continue;
 }
 else if (c=="no"){
-	break;
-	
+  break;
 }
+
 else{	
+<<<<<<< HEAD
 while (c!="si"&& c!="no"){
 cout<<"Si o No camarada, Si o No"<<endl;
 //minus converter//
@@ -48,8 +50,6 @@ for(size_t f=0 ; f<c.size();f++){
 }
 
 cin>>c;
-
-}
 
 }
 
