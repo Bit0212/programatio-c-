@@ -1,4 +1,3 @@
-/* escribir un programa que calcule 1*2*3*4*n */
 #include <iostream>
 int main(){
   int a,mul =1;
