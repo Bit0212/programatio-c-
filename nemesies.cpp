@@ -1,5 +1,6 @@
 #include <cmath>
 #include <iostream>
+
 int main()
 {
     int hola = 0;
@@ -7,7 +8,7 @@ int main()
     std::cout << "hola buenas tardes escoja una de las siguientes opciones " << std::endl;
 
     std::cout << "1.cubo de algo\n"
-              << "2.par o impar" << "\n3. Salir de este programa" << std::endl;
+              << "2.par o impar" << "3. Salir de este programa" << std::endl;
     std::cin >> hola;
     switch (hola)
     {
