@@ -1,4 +1,3 @@
-#include <climits>
 #include <iostream>
 int main() {
 int a =0;
@@ -10,10 +9,10 @@ int a =0;
     }
     for(int i =2; i*i<=a; i++){
         while(a% i ==0){
-            std::cout<<i<<" ";
+            std::cout<<i;
             a/=i;
             if(a>1){
-                std::cout<<"rouge "<<std::endl;
+                std::cout<<"*";
             }
         }
 
